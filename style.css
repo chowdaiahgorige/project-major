@@ -1,0 +1,97 @@
+.avater{
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+.avater:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.product-1{
+    height: 21rem;
+    border-radius: 10px;
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+    cursor: pointer;
+}
+.sub-images{
+   position: relative;
+   top: 5rem;
+   
+   left: 4.3rem;
+   border:5px solid none;
+   width: 27.9%;
+}
+@media (max-width:576px){
+    .sub-images{
+        display: none;
+    }
+    .product-1{
+        width: 85%;
+        margin-bottom: 300px;
+    }
+    
+    .section{
+        position: relative;
+        bottom: 3.5rem;
+        right: 11rem;
+    }
+    .container-content{
+        position: relative;
+        right: 36rem;
+        top:50px;
+    }
+
+}
+.img{
+    height: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main{
+    position: relative;
+    left: 8rem;
+    bottom: 30px;
+}
+.img:hover{
+    border: 3px solid orange;
+}
+.main-content{
+    position: relative;
+    left: 28rem;
+    bottom: 21rem;
+}
+.para{
+    margin-top: 2rem;
+    color: dark;
+    line-height: 1.6;
+}
+.h4{
+    color: white;
+    background-color: black;
+    padding:0px 10px;
+    position: relative;
+    border-radius: 5px;
+    left: 9rem;
+    bottom: 2.5rem;
+}
+h5{
+   position: relative;
+   bottom: 1.5rem;
+}
+.button{
+    color: black;
+    background-color: orangered;
+    width: 270px;
+    position: relative;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none; 
+    bottom: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button>img{
+    padding-right:10px ; 
+}
